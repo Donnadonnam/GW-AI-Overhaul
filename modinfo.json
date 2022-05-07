@@ -28,6 +28,7 @@
     "gw_start": [
       "coui://ui/mods/com.pa.quitch.gwaioverhaul/gw_start/ui.js",
       "coui://ui/mods/com.pa.quitch.gwaioverhaul/gw_start/gwo_start.css",
+      "coui://ui/mods/com.pa.quitch.gwaioverhaul/gw_start/mod_warning.css",
       "coui://ui/mods/com.pa.quitch.gwaioverhaul/gw_start/mod_warning.js",
       "coui://ui/mods/com.pa.quitch.gwaioverhaul/gw_start/setup.js"
     ],

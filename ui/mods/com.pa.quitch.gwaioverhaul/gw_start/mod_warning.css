@@ -1,0 +1,100 @@
+.div_tutorial_popup {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.tutorial_dialog {
+  width: 465px;
+  text-align: center;
+  position: relative;
+  text-shadow: 0px 0px 10px rgb(0, 179, 255);
+}
+
+.tutorial_dialog.debut {
+  width: 800px;
+}
+
+.tutorial_dialog div {
+  display: flex;
+  align-items: center;
+}
+
+.tutorial_dialog .header {
+  height: 30px;
+  border-bottom: 30px solid #00303f;
+  border-right: 30px solid transparent;
+}
+
+.tutorial_dialog .header > .msg {
+  height: 30px;
+  margin-bottom: -30px;
+  padding: 0 0 0 8px;
+}
+
+.tutorial_dialog .image {
+  position: relative;
+}
+
+.tutorial_dialog .image > .headline {
+  width: 280px;
+  color: #fff;
+  font-family: "Sansation";
+  font-weight: bold;
+  font-size: 42px;
+  text-transform: uppercase;
+  text-align: left;
+  text-shadow: 0 0 24px #b65353;
+  line-height: 1;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.tutorial_dialog .text {
+  background: #02141a;
+  padding: 0 16px;
+  flex-direction: column;
+}
+
+.tutorial_dialog .headline {
+  color: #61e6ff;
+  font-size: 24px;
+  font-family: "Sansation";
+  font-weight: bold;
+  margin: 20px 0 4px 0;
+  padding: 0 16px;
+}
+
+.tutorial_dialog .tagline {
+  color: #d2fffd;
+  font-size: 16px;
+  text-align: center;
+  margin: 2px 0 0 0;
+}
+
+.tutorial_dialog .tagline.debut {
+  max-width: 420px;
+}
+
+.tutorial_dialog .div_commit {
+  margin: 24px 0 0 0;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tutorial_dialog .div_commit > button {
+  margin: 0 0 12px 0;
+}
+
+.tutorial_dialog .footer {
+  border-top: 20px solid #011e27;
+  border-right: 20px solid transparent;
+}
